@@ -1,3 +1,6 @@
+def suma(n1, n2):
+    return n1 + n2
+
 def menu_principal():
     try:
         operacion = int(input("Ingrese el numero de operacion "))
