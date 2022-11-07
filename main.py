@@ -24,5 +24,7 @@ def menu_principal():
             resultado = logaritmo(valor1, valor2)
         case _:
             resultado = "Operacion invalida"
-
+    
     print(resultado)
+def potencia(valor1,valor2):
+        reultado = valor1**valor2    
