@@ -38,3 +38,5 @@ def menu_principal():
             resultado = "Operacion invalida"
 
     print(resultado)
+def resta(n1, n2):
+    return n1 - n2
