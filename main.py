@@ -5,7 +5,7 @@ def multiplicacion (n1,n2):
 def suma(n1, n2):
     return n1 + n2
 def dividir(num,div):
-    return num/div
+    return num/div 
 def menu_principal():
     try:
         operacion = int(input("Ingrese el numero de operacion "))
