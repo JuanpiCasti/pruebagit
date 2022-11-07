@@ -1,6 +1,7 @@
 def suma(n1, n2):
     return n1 + n2
-
+def dividir(num,div):
+    return num/div
 def menu_principal():
     try:
         operacion = int(input("Ingrese el numero de operacion "))
@@ -18,6 +19,10 @@ def menu_principal():
         case 3:
             resultado = multiplicar(valor1, valor2)
         case 4:
+            try:
+                resultado= (dividir(valor1,valor2))
+            except ZeroDivisionError:
+                print("Trataste de dividir entre cero ")
             resultado = dividir(valor1, valor2)
         case 5:
             resultado = potencia(valor1, valor2)
