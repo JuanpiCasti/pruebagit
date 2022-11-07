@@ -19,3 +19,4 @@ if operacion == 4:
         print (dividir(numero1,numero2))
     except ZeroDivisionError:
         print("Trataste de dividir entre cero ")
+
